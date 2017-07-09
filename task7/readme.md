@@ -1,3 +1,4 @@
+任务七：
 任务目的:
 
 通过实现一个常见的技术产品官网，加深对于HTML，CSS的实战能力
@@ -15,3 +16,5 @@
 在Chrome中完美实现与设计稿的各项字体、布局、内外边距等样式
 有能力的同学可以尝试跨浏览器的兼容性
 有能力的同学可以在实现一遍后尝试用less, sass或者stylus等再实现一次
+
+预览：https://htmlpreview.github.io/?https://github.com/louise0331/baidulianxi---htmlcss/blob/master/task7/task7.html#top
