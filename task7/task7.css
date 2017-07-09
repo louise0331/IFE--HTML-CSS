@@ -1,0 +1,804 @@
+body{
+	font-family: "黑体";
+	margin:0px;
+	min-width:1280px;
+}
+
+#allcontent{
+	background-color: white;
+	margin:0px;
+}
+
+/*navigation*/
+
+
+
+#daohang li{
+	float: left;
+	font-family: "微软雅黑";
+	font-size: 14px;
+    height: 32px;
+    width:60px;
+    padding: 15px 20px 0px 20px;
+    text-align: center;
+}
+
+#daohang li.thispage a{
+	color:rgb(231,79,77);
+}
+#daohang li a:link{
+	text-decoration: none;
+	color:black;
+	transition: color 0.3s;
+}
+
+#daohang li a:visited {
+    color:black;
+}
+#daohang li a:active {
+    color:rgb(231,79,77);
+}
+#daohang li a:hover {
+    color:rgb(231,79,77);
+}
+#daohang li.thispage a{
+    color:rgb(231,79,77);
+}
+
+#item{
+	position: absolute;
+    left:40px;
+    bottom:-5px;
+	border-bottom:5px solid rgb(231,79,77);
+	width:100px;
+	height: 5px;
+	transition: left .2s ease-in-out;
+    -webkit-transition: left .2s ease-in-out;
+    margin:0px;
+
+}
+#daohang li:nth-child(1):hover~ #item{
+    left:40px;
+}
+#daohang li:nth-child(2):hover~ #item{
+    left:140px;
+}
+#daohang li:nth-child(3):hover~ #item{
+    left:240px;
+}
+#daohang li:nth-child(4):hover~ #item{
+    left:340px;
+}
+#daohang li:nth-child(5):hover~ #item{
+    left:440px;
+}
+
+#daohang {
+	float:right;
+    list-style-type: none;
+    margin:0px;
+    position: relative;
+}
+
+nav{
+	    padding:0px 40px 0px 40px;
+	    height:52px;
+	    margin:0px;
+}
+
+#newworld p{
+	margin:0px;
+}
+#newworld a{
+font-size:21px;
+    text-align:left;
+    font-family:"黑体";
+    color: black;
+    text-decoration: none;
+}
+
+#newworld{
+	padding-top:10px;
+}
+
+/*part1+part2*/
+
+#part1part2{
+	background-image: url(task7H.png);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 1000px; 
+}
+#part1part2 #cover{
+	position: absolute;
+	top:52;
+	left:0;
+	width: 100%;
+	height: 1000px;
+	background-image:url(task7H1.png);
+	background-size: cover;
+	opacity: 1;
+	transition: opacity 0.3s ease-in-out;
+}
+
+#part1part2 #parthover:hover #cover{
+	opacity: 0;
+}
+
+#part1 h1 {
+  font-size: 60px;
+  font-family: "Microsoft YaHei";
+  color: rgb(255, 255, 255);
+  margin:0px;
+  text-align: left;
+  font-weight: normal;
+}
+
+#part1 p{
+  font-size: 21px;
+  font-family: "微软雅黑";
+  color: rgb(255, 253, 253);
+  line-height: 1.5;
+  text-align: left;
+  margin-top:10px;
+}
+
+#startexperience{
+  display: block;
+  background-color: rgb(231,79,77);
+  border: none;
+  width: 331px;
+  height: 55px;
+  margin-top: 40px;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 30px;
+  font-family: "微软雅黑";
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: all 0.5s;
+}
+
+#startexperience:link{
+	background-color: rgb(231,79,77);
+	color: rgb(255, 255, 255);
+}
+#startexperience:hover{
+  background-color:white;
+  color:rgb(231,79,77);
+}
+
+
+#part1{
+	position: absolute;
+	left:220px;
+	top: 320px;
+	width:500px;
+}
+
+#displaytable{
+	display: table;
+	width: 100%;
+	background-color: white;
+	position: absolute;
+	top: 900px;
+	padding:30px 0px 30px 0px;
+	min-width:1280px;
+}
+.displaycell{
+	display: table-cell;
+	text-align: center;
+    font-size: 14px;
+    font-family: "SimHei";
+    color: rgb(118, 119, 119);
+    line-height: 1.286;
+    padding: 20px 0px 20px 0px;
+}
+
+.displaycell p{
+	margin:40px 0px 0px 0px;
+}
+.border p{
+    border-right: 1px solid rgb(118, 119, 119);
+}
+
+/*part3*/
+
+#part3{
+	background-color: rgb(237,236,236);
+	height:340px;
+	text-align:center;
+	padding-top:150px;
+}
+
+#part3 p{
+  font-size: 53.586px;
+  font-family: "SimHei";
+  color: rgba(50, 51, 51, 0.502);
+  line-height: 1.056;
+  text-align: center;
+  margin-top:70px;
+}
+
+
+
+#part4{
+	background-image: url(task7J.png);
+	background-size:  100%;
+	background-repeat:  no-repeat;
+	height: 341px;
+	text-align: center;
+    position: relative;
+}
+
+#part4 #cover{
+	position: absolute;
+	width: 100%;
+	height: 341px;
+	top: 0px;
+	left: 0px;
+	background:url(task7J1.png) no-repeat;
+	background-size: cover;
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+
+#part4:hover #cover{
+    opacity: 1;
+}
+
+#part4 #uncover{
+	position: absolute;
+	width: 100%;
+	height: 341px;
+	top: 0px;
+	left: 0px;
+}
+
+#part4 #title{
+  font-size: 21px;
+  font-family: "Microsoft YaHei";
+  line-height: 1.994;
+  padding-top:50px;
+  width: 250px;
+  margin:0  auto;
+}
+
+#part4 #line{
+  border-bottom: 2px solid white;
+  height:5px;
+  width:30px;
+  margin:0px auto;
+  transition: width .2s ease-in-out;
+  -webkit-transition: width 1s ;
+}
+
+#part4 a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+
+#part4 #hover:hover #line{
+  width:250px;
+}
+#part4 #content{
+  font-size: 15px;
+  font-family: "Microsoft YaHei";
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 2.605;
+  margin-top: 15px;
+}
+
+#part4 form select{
+    padding-left: 10px;
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+    color: rgb(168, 170, 170);
+	width: 236px;
+	height: 36px;
+	margin: 20px;
+    -webkit-appearance:none;
+    background: white url(task7K.png) no-repeat right 5px center;
+}
+
+#part4 form select:focus{
+    outline: rgb(231,79,77) solid 1px;
+ }
+
+#part4 option{
+	background-color: rgb(228,227,229);
+ }
+
+#part4 button{
+    border:none;
+	width: 236px;
+	height: 36px;
+	margin: 20px;
+    background-color: rgb(231,79,77);
+	font-size: 14px;
+    font-family: "Microsoft YaHei";
+    letter-spacing: 25px;
+    padding-left: 25px;
+    color: white;
+}
+
+#part4 button:hover{
+  background-color:white;
+  color:rgb(231,79,77);
+}
+#part4 button:active{
+  outline: none;
+}
+
+/*part5*/
+#part5{
+	width:100%;
+	height: 631px;
+	background-color: rgb(247,247,247);
+}
+
+#part5 #table{
+	display: table;
+	width:80%;
+	margin-top:;
+	text-align: center;
+    margin:0px auto;
+    padding-top:120px;
+    height:400px;
+}
+#part5 .cell{
+    display:table-cell;
+    position: relative;
+
+}
+#part5 a{
+		text-decoration: none;
+}
+
+#part5 .cell .all{
+	color:lightgrey;
+	font-size: 15px;
+}
+
+#part5 .cell .title{
+	color:grey;
+	font-size: 20px;
+	line-height: 2;
+}
+
+#part5 .cell .art{
+    padding: 10px 5px 10px 5px;
+    border: 1px solid lightgrey;
+    background-color: white;
+    margin-bottom: 20px;
+    top:20px;
+    transition: all 1s ease-in-out;
+}
+
+#part5 .cell a:hover .all{
+    display: inline-block;
+    position: absolute;
+    width:200px;
+    left:50px;
+    top: 0px;
+}
+
+#part5 .cell a:hover .art{
+   position: relative;
+   top:80px;
+}
+#part5 .cell a:hover .title{
+	display: inline-block;
+	padding-left:20px;
+	letter-spacing: 25px;
+}
+
+/*part6*/
+
+#part6{
+	height: 565px;
+	background:url(task7P.png) no-repeat left top;
+	position: relative;
+}
+
+#part6 #newtime{
+	width:849px;
+	text-align: center;
+	position: relative;
+}
+#part6 p{
+	  margin: 0px;
+}
+
+#part6 #newtime #xsj{
+  font-size: 49.473px;
+  font-family: "Microsoft YaHei";
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 120px;
+}
+
+#part6 #newtime #time{
+  font-size: 157.788px;
+  font-family: "Microsoft YaHei";
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 80px;
+}
+
+.small{
+  font-size: 22px;
+  font-family: "Microsoft YaHei";
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 80px;
+}
+
+#part6 #newtime img{
+	position: absolute;
+	width: 26px;
+	right: -1px;
+	top:270px;
+}
+
+#part6 #aside{
+	width:849px;
+	text-align: center;
+	position: absolute;
+	width:350px;
+	right: 160px;
+	top:80px;
+}
+
+#part6 #aside h2{
+  font-size: 22px;
+  font-family: "Microsoft YaHei";
+  font-weight: normal;
+ }
+#part6 #aside h2 span{
+  color: rgb(231,79,77);
+}
+
+#part6 #aside p{
+  font-size: 12px;
+  font-family: "SimSun";
+  color: rgb(170, 170, 170);
+  line-height: 2.5;
+  text-align: left;
+  padding-top: 20px;
+}
+
+#part6 #aside a{
+	text-decoration: none;
+}
+
+#part6 #aside #moreinfo{
+  display: inline-block;
+  width: 175px;
+  height: 35px;
+  font-size: 21px;
+  border: 2px solid rgb(231,79,77);
+  padding-top: 10px;
+  margin-top: 50px;
+  color: rgb(231,79,77);
+  transition: all 0.5s;
+}
+
+#part6 #circle .oo{
+  display: inline-block;
+  width:8px;
+  height: 8px;
+  border: 1px solid rgb(145,145,146);
+  border-radius: 4px;
+  margin:25px 5px 0px 5px;
+}
+
+#part6 #circle .now{
+  background-color: rgb(145,145,146);
+}
+
+#part6 #aside #moreinfo:hover{
+	background-color:rgb(231,79,77);
+	color:white;
+}
+
+/*part7*/
+
+#part7{
+	display: table;
+	width:100%;
+	height: 565px;
+}
+
+#part7 .cell{
+  display: table-cell;
+  font-size: 21px;
+  font-family: "SimHei";
+  line-height: 1.446;
+  text-align: center;
+  position: relative;
+}
+
+#part7 .cell p{
+	padding-top: 175px;
+	margin: 0px;
+}
+
+#part7 .cell:nth-child(1){
+	width: 424.5px;
+	background-color: rgb(231,79,77);
+	color: white;
+}
+
+#part7 .cell:nth-child(2){
+	width: 424.5px;
+	color: black;
+}
+
+#part7 .cell span{
+	display: inline-block;
+	margin-top:30px; 
+	border: 1.5px solid white;
+	width:20px;
+	height: 0px;
+	text-align: center;
+	transition: width 1s ease-in-out;
+}
+
+#part7 .cell p:hover~span{
+	width:160px;
+}
+
+#part7 .cell2 span{
+    border: 1.5px solid rgb(171,170,170);
+}
+
+#part7 .cell a{
+	display: inline-block;
+	width:180px;
+	height: 35px;
+	margin: 30px auto;
+	padding-top: 5px;
+	text-decoration: none;
+	border: 2px solid white;
+	color:white;
+	transition: all 0.5s;
+}
+
+#part7 .cell2 a{
+	border: 2px solid rgb(231,79,77);
+	color:rgb(231,79,77);
+}
+
+#part7 .cell1 a:hover{
+   color:rgb(231,79,77);
+   background-color: white;
+}
+#part7 .cell2 a:hover{
+   color:white;
+   background-color: rgb(231,79,77);
+}
+#part7 .cell3 {
+	background: url(task7S.png) no-repeat;
+	background-size: cover;
+}
+
+#part7 .cell3 #cover{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: url(task7T.png) no-repeat;
+	background-size: cover;
+	opacity: 1;
+	transition: opacity 0.2s;
+}
+
+#part7 .cell3:hover  #cover{
+	opacity: 0;
+}
+
+
+#part7 .cell3 #img{
+	width: 26px;
+	height: 31px;
+	background:url(task7R.png) no-repeat;
+    position: absolute;
+    width: 26px;
+    left: -2px;
+    top:270px;
+}
+
+/*part8*/
+#part8 #partone{
+	text-align: center;
+}
+
+#part8{
+	padding:120px 200px 0px 200px;
+	position: relative;
+	padding-bottom: 170px;
+}
+
+#part8 #partone #title1{
+  font-size: 21px;
+  font-family: "SimHei";
+  color: rgb(50, 51, 51);
+  line-height: 1.446;
+  text-align: center;
+}
+
+#part8 #partone #subtitle{
+  font-size: 12px;
+  font-family: "Microsoft YaHei";
+  color: rgb(170, 170, 170);
+  line-height: 1.5;
+  text-align: center;
+}
+#part8 #partone #line{
+	display: inline-block;
+	border: 1.5px solid rgb(231,79,77);
+	width:20px;
+	margin: 8px;
+	transition: width 1s;
+}
+
+#part8 #partone:hover  #line{
+   width:200px;
+}
+
+#part8 #parttwo .clausetitle{
+  font-size: 14px;
+  font-family: "SimHei";
+  color: rgba(35, 24, 21, 0.8);
+  line-height: 1.929;
+  text-align: left;
+}
+
+#part8 #parttwo .clausecontent{
+  font-size: 12px;
+  font-family: "SimSun";
+  color: rgba(35, 24, 21, 0.6);
+  line-height: 1.75;
+  text-align: left;
+  transition: all 2s;
+}
+
+#part8 #parttwo{
+	width:360px;
+	margin-top: 100px;
+}
+#part8 #parttwo .clause{
+	position: relative;
+	margin-bottom: 40px;
+}
+#part8 #parttwo .clause .more{
+   position: absolute;
+   right: 0px;
+   bottom: -15px;
+}
+
+#part8 .hover:hover .clausecontent:after{
+  content: " 更多更多更多更多更多更多更多更多更多更多更多更多更多更多更多更多更多更多更多更多更多更多更多更多更多更多更多"
+}
+
+#part8 #partthree{
+	width:500px;
+	position: absolute;
+	right:350px;
+	top: 305px;
+}
+
+#part8 form table{
+	border-spacing: 20px;
+}
+
+#part8 form input{
+	border:none;
+	background-color: rgb(237,237,239);
+	padding-left: 10px;
+}
+
+#part8 form #line1 input,#line2 input{
+ width: 300px;
+ height: 35px;
+}
+
+#part8 form #line3 textarea{
+	border:none;
+	background-color: rgb(237,237,239);
+	padding: 10px;
+  width: 630px;
+  height: 100px;
+}
+
+#part8 form button{
+	border:none;
+	background-color: rgb(237,237,239);
+    width: 650px;
+    height: 35px;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    color:grey;
+}
+
+#part8 form button:hover{
+	background-color: grey;
+	color:rgb(237,237,239);
+}
+
+/*part9*/
+#part9{
+	height: 190px;
+	background-color: rgb(50,54,62);
+	text-align: center;
+	padding: 80px;
+}
+
+#part9 h2{
+  font-size: 21px;
+  font-family: "SimHei";
+  color: rgb(255, 255, 255);
+  line-height: 2.303;
+  text-align: center;
+  margin:0px;
+}
+
+#part9 p{
+  font-size: 12px;
+  font-family: "SimSun";
+  color: rgb(255, 255, 255);
+  line-height: 1.5;
+  text-align: center;
+  margin: 0px 0px 30px 0px;
+}
+
+#part9 input{
+	width: 475px;
+	padding: 0px 0px 0px 10px;
+	border:none;
+	height: 30px;
+}
+
+#part9 button{
+	vertical-align: top;
+	height: 30px;
+	width:70px;
+	border:none;
+	background-color: rgb(111,113,120);
+	font-family: "微软雅黑";
+	-webkit-appearance:none;
+	color:white;
+	letter-spacing:4px;
+}
+
+#part9 img{
+	margin:40px 10px 0px 10px;
+}
+
+/*footer*/
+
+footer{
+	height: 60px;
+	background-color: rgb(48,48,57);
+	padding:0px 100px 0px 100px;
+}
+
+footer p{
+  font-size: 12px;
+  font-family: "微软雅黑";
+  color: rgb(255, 255, 255);
+  line-height: 1.9;
+  margin: 0px;
+  padding-top: 25px;
+}
+
+footer a{
+	display: block;
+	float:right;
+	margin-top:25px;
+	color:white;
+	text-decoration: none;
+}
+
