@@ -15,3 +15,5 @@
 在Chrome中完美实现符合标注中的各项说明
 有能力的同学可以尝试跨浏览器的兼容性
 有能力的同学可以在实现一遍后尝试用less, sass或者stylus等再实现一次
+
+预览：http://htmlpreview.github.io/?https://github.com/louise0331/IFE--HTML-CSS/blob/master/task6/task6.html
